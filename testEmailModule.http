@@ -1,0 +1,6 @@
+@testEmailModule_HostAddress = http://localhost:5231
+
+GET {{testEmailModule_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

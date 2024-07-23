@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tengh\\repo\\testEmailModule\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\tengh\\repo\\testemailmodule\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\tengh\\repo\\testemailmodule\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\tengh\\repo\\testemailmodule\\service\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:service\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\tengh\\repo\\testemailmodule\\utils\\emailenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:utils\\emailenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\tengh\\repo\\testemailmodule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tengh\\repo\\testEmailModule\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Tengh\\repo\\testEmailModule\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T16:44:38.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailEnum.cs",
+              "DocumentMoniker": "C:\\Users\\Tengh\\repo\\testEmailModule\\Utils\\EmailEnum.cs",
+              "RelativeDocumentMoniker": "Utils\\EmailEnum.cs",
+              "ToolTip": "C:\\Users\\Tengh\\repo\\testEmailModule\\Utils\\EmailEnum.cs",
+              "RelativeToolTip": "Utils\\EmailEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T14:32:59.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Tengh\\repo\\testEmailModule\\Service\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Service\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\Tengh\\repo\\testEmailModule\\Service\\IEmailService.cs",
+              "RelativeToolTip": "Service\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T14:18:30.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Tengh\\repo\\testEmailModule\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "Service\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Tengh\\repo\\testEmailModule\\Service\\EmailService.cs",
+              "RelativeToolTip": "Service\\EmailService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAnwEMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T14:12:06.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "C:\\Users\\Tengh\\repo\\testEmailModule\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmailController.cs",
+              "ToolTip": "C:\\Users\\Tengh\\repo\\testEmailModule\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "Controllers\\EmailController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAIAzwCcAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T13:46:26.126Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
