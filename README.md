@@ -38,7 +38,7 @@ The outcome will be
 - Enum returned: STATUS_EMAIL_FAIL, OTP value generated: </no value generated>
 - Enum returned: STATUS_EMAIL_OK, OTP value generated: You OTP Code is 158488. The code is valid for 1 minute
 
-<b>7. Next to test check_OTP, we will use these three type of input</b>
+<b>7. Next to test check_OTP, we will use these three methods of testing</b>
 
 <u>to test successful flow... [STATUS_OTP_OK: OTP is valid and checked]</u>
 - "158488" </ valid number which was generated, retry = false>
