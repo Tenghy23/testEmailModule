@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Text.Json;
+using testEmailModule.Dto;
 using testEmailModule.Service;
 
 namespace testEmailModule.Controllers
@@ -39,14 +40,14 @@ namespace testEmailModule.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> Check_OTP(string generatedOTP)
+        public async Task<IActionResult> Check_OTP([FromBody] string? OTPInput, bool retry = false)
         {
             try
             {
-                using (var stream = new StreamReader(Request.Body))
+                using (var stream = HttpContext.Request.Body)
                 {
-                    var result = await _emailService.check_OTP(stream, generatedOTP);
-                    return Ok(result); 
+                    var result = await _emailService.check_OTP(stream, retry, OTPInput);
+                    return Ok($"Enum: {(int)result.Item1}, Message: {result.Item2}");
                 }
             }
             catch
