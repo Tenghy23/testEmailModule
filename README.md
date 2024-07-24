@@ -12,9 +12,9 @@ Service - IEmailService (Interface class)<br>
 
 Utils - EmailEnum (Enums held here)<br>
 
-<b>3. 2 endpoints are created for testing </b>
-/Email/generate_OTP_email
-/Email/check_OTP
+<b>3. 2 endpoints are created for testing </b><br>
+/Email/generate_OTP_email<br>
+/Email/check_OTP<br>
 
 <b>4. Assumptions</b>
 - For generate_OTP_email, an API call is made to send the email address for validation, where the validation will take care of checking the email validity, while using the Random() class to generate a 6-digit code and returning it to the front end
