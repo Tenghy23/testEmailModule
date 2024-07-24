@@ -5,12 +5,12 @@
 <b>1. Clone repository into local, and run the project to launch swagger<br>
 2. Project structure looks like this</b>
 
-Controllers - EmailController (API endpoint)
+Controllers - EmailController (API endpoint)<br>
 
-Service - EmailService (Logic held here)
-Service - IEmailService (Interface class)
+Service - EmailService (Logic held here)<br>
+Service - IEmailService (Interface class)<br>
 
-Utils - EmailEnum (Enums held here)
+Utils - EmailEnum (Enums held here)<br>
 
 <b>3. 2 endpoints are created for testing </b>
 /Email/generate_OTP_email
