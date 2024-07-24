@@ -98,8 +98,8 @@ namespace testEmailModule.Service
         private async Task<string> readOTP(string input)
         {
             // to simulate waiting, you can change this to TimeSpan.FromSeconds(61) to test fail flow
-            //await Task.Delay(1000);
-            await Task.Delay(TimeSpan.FromSeconds(61));
+            await Task.Delay(1000);
+            //await Task.Delay(TimeSpan.FromSeconds(61));
             return input;
         }
 
