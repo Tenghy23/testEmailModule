@@ -30,7 +30,7 @@ the check_OTP method will read the input stream for user input of the OTP. From 
 
 <b>6. first to test generate_OTP_email, we will use 3 emails</b>
 	- abc@outlook.com 
-	- "" </empty string>
+	-  </empty string, dont fill in anything>
 	- pass@google.dso.org.sg
 
 The outcome will be
