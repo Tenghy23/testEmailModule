@@ -51,6 +51,6 @@ you will notice that numberOfTries count will be set to 10 in the second call, b
 
 <u>to test timeout... [STATUS_OTP_TIMEOUT: timeout after 1 min]</u>
 - step 1. Restart the project, go to EmailService and uncomment line 102 [delay 61 seconds]
-- step 2. uncomment line 101 [delay 1 seconds]
+- step 2. comment line 101 [delay 1 seconds]
 - step 3. call API with "158488" </set retry = false>, and wait 61 seconds for the call to finish
 you will notice that the error thrown out would be the delay message Enum: 6, Message: STATUS_OTP_TIMEOUT
