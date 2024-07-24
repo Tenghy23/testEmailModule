@@ -1,7 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Text.Json;
-using testEmailModule.Dto;
 using testEmailModule.Service;
 
 namespace testEmailModule.Controllers
