@@ -2,7 +2,7 @@
 
 ## Testing
 
-<b>1. Clone repository into local, and run the project to launch swagger
+<b>1. Clone repository into local, and run the project to launch swagger<br>
 2. Project structure looks like this</b>
 
 Controllers - EmailController (API endpoint)
