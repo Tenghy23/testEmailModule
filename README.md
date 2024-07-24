@@ -23,7 +23,7 @@ Utils - EmailEnum (Enums held here)<br>
 
 check_OTP(Stream input, bool retry = false, string? OTPInputFromUser = null)
 
-the retry parameter is meant for the purpose of simulating retry logic
+the retry parameter is meant for the purpose of simulating retry logic<br>
 the OTPInputFromUser parameter is meant to pass in the 6-digit generated from the generate_OTP_email to validate
 
 the check_OTP method will read the input stream for user input of the OTP. From the output of the input stream, we will check it with the 6-digit that was passed in by the user [OTPInputFromUser]. The service is registered as a singleton in order for the numberOfTries count to persist between API calls, and 10 tries validation and timeout validation are implemented as such
