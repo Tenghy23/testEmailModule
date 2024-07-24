@@ -28,7 +28,7 @@ the OTPInputFromUser parameter is meant to pass in the 6-digit generated from th
 
 the check_OTP method will read the input stream for user input of the OTP. From the output of the input stream, we will check it with the 6-digit that was passed in by the user [OTPInputFromUser]. The service is registered as a singleton in order for the numberOfTries count to persist between API calls, and 10 tries validation and timeout validation are implemented as such
 
-<b>6. first to test generate_OTP_email, we will use 3 emails</b>
+<b>6. first to test generate_OTP_email, we will use 3 emails</b><br>
 	- abc@outlook.com<br>
 	-  </empty string, dont fill in anything><br>
 	- pass@google.dso.org.sg<br>
