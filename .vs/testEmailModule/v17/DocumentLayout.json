@@ -42,8 +42,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T16:44:38.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T16:44:38.392Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Utils\\EmailEnum.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T14:32:59.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T14:32:59.651Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "Service\\IEmailService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T14:18:30.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T14:18:30.176Z"
             },
             {
               "$type": "Document",
@@ -79,7 +76,7 @@
               "RelativeDocumentMoniker": "Service\\EmailService.cs",
               "ToolTip": "C:\\Users\\Tengh\\repo\\testEmailModule\\Service\\EmailService.cs",
               "RelativeToolTip": "Service\\EmailService.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAwwGEAAAA4AAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAwwGQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T14:12:06.942Z",
               "EditorCaption": ""
@@ -94,8 +91,7 @@
               "RelativeToolTip": "Controllers\\EmailController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAgwBkAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T13:46:26.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T13:46:26.126Z"
             }
           ]
         }
