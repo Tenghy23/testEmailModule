@@ -8,7 +8,8 @@
 Controllers - EmailController (API endpoint)<br>
 
 Service - EmailService (Logic held here)<br>
-Service - IEmailService (Interface class)<br>
+Service - EmailService, IInputStream (Simulate read from console)<br>
+Service - IEmailService, IInputStream (Interface class)<br>
 
 Utils - EmailEnum (Enums held here)<br>
 
@@ -17,18 +18,12 @@ Utils - EmailEnum (Enums held here)<br>
 /Email/check_OTP<br>
 
 <b>4. Assumptions</b>
-- For generate_OTP_email, an API call is made to send the email address for validation, where the validation will take care of checking the email validity, while using the Random() class to generate a 6-digit code and returning it to the front end
+- For generate_OTP_email, an API call is made to send the email address for validation, where the validation will take care of checking the email validity, while using the Random() class to generate a 6-digit code and returning it to the Swagger UI
 
-- For check_OTP, an API call is made to take in the 6-digit code that was generated. The method in the service check_OTP takes in a generic stream, and nullable parameters for simulating testing purposes
+- For check_OTP, an API call is made to take in the email address that the 6 digit was stored to. The method in the service Check_OTP takes in a input stream, which reads inputs from the console when required.
 
-check_OTP(Stream input, bool retry = false, string? OTPInputFromUser = null)
 
-the retry parameter is meant for the purpose of simulating retry logic<br>
-the OTPInputFromUser parameter is meant to pass in the 6-digit generated from the generate_OTP_email to validate
-
-the check_OTP method will read the input stream for user input of the OTP. From the output of the input stream, we will check it with the 6-digit that was passed in by the user [OTPInputFromUser]. The service is registered as a singleton in order for the numberOfTries count to persist between API calls, and 10 tries validation and timeout validation are implemented as such
-
-<b>6. first to test generate_OTP_email, we will use 3 emails</b><br>
+<b>5. To test generate_OTP_email, we will use 3 emails</b><br>
 	- abc@outlook.com<br>
 	-  </empty string, dont fill in anything><br>
 	- pass@google.dso.org.sg<br>
@@ -36,21 +31,16 @@ the check_OTP method will read the input stream for user input of the OTP. From 
 The outcome will be
 - Enum returned: STATUS_EMAIL_INVALID, OTP value generated: </no value generated>
 - Enum returned: STATUS_EMAIL_FAIL, OTP value generated: </no value generated>
-- Enum returned: STATUS_EMAIL_OK, OTP value generated: You OTP Code is 158488. The code is valid for 1 minute
+- Enum returned: STATUS_EMAIL_OK, OTP value generated: You OTP Code is XXXXXX. The code is valid for 1 minute
 
-<b>7. Next to test check_OTP, we will use these three methods of testing</b>
+<b>7. Next to test check_OTP, we will key in the email address supplied in the first API to trigger the input from the console. We can now use the console to test input.</b>
 
-<u>to test successful flow... [STATUS_OTP_OK: OTP is valid and checked]</u>
-- "158488" </ valid number which was generated, retry = false>
+<b>8. To test check_OTP, we perform 3 different types of scenario</b><br>
+	- after input valid email, key in a different 6 digit value in the console, more than 10 times
+	- leave the input hanging for more than 1 minute
+	- key in OTP generated from the first API
 
-<u>to test fail flow... [STATUS_OTP_FAIL: OTP is wrong after 10 tries]</u>
-- step 1. call API with "158488" </set retry = true>, and do not close the project
-- step 2. call API with "158488" </set retry = false>
-you will notice that numberOfTries count will be set to 10 in the second call, because in the first call, we have persisted the value, and hence the outcome will show   
- Enum: 5, Message: STATUS_OTP_FAIL
-
-<u>to test timeout... [STATUS_OTP_TIMEOUT: timeout after 1 min]</u>
-- step 1. Restart the project, go to EmailService and uncomment line 102 [delay 61 seconds]
-- step 2. comment line 101 [delay 1 seconds]
-- step 3. call API with "158488" </set retry = false>, and wait 61 seconds for the call to finish
-you will notice that the error thrown out would be the delay message Enum: 6, Message: STATUS_OTP_TIMEOUT
+The outcome will be
+- STATUS_OTP_OK: OTP is valid and checked
+- STATUS_OTP_FAIL: OTP is wrong after 10 tries
+- STATUS_OTP_OK: OTP is valid and checked

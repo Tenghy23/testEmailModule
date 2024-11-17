@@ -54,7 +54,7 @@ namespace testEmailModule.Service
             }
 
             const int maxAttempts = 10; // Maximum number of tries
-            const int timeoutMilliseconds = 5000; // Timeout in milliseconds
+            const int timeoutMilliseconds = 60000; // Timeout in milliseconds
 
 
             var cts = new CancellationTokenSource();
@@ -76,7 +76,7 @@ namespace testEmailModule.Service
                     {
                         // Timeout occurred
                         Console.WriteLine("Timeout occurred while waiting for OTP.");
-                        return (EmailEnum.STATUS_OTP_TIMEOUT, "Timeout after 5 seconds");
+                        return (EmailEnum.STATUS_OTP_TIMEOUT, "STATUS_OTP_TIMEOUT: timeout after 1 min");
                     }
 
                     // OTP input was completed
@@ -84,7 +84,7 @@ namespace testEmailModule.Service
 
                     if (userOTP == otpStore[email].OTP)
                     {
-                        return (EmailEnum.STATUS_OTP_OK, "OTP is valid");
+                        return (EmailEnum.STATUS_OTP_OK, "STATUS_OTP_OK: OTP is valid and checked");
                     }
                     else
                     {
@@ -92,7 +92,7 @@ namespace testEmailModule.Service
                     }
                 }
 
-                return (EmailEnum.STATUS_OTP_FAIL, "OTP is wrong after 10 tries");
+                return (EmailEnum.STATUS_OTP_FAIL, "STATUS_OTP_FAIL: OTP is wrong after 10 tries");
             }
             catch (Exception ex)
             {
@@ -105,13 +105,6 @@ namespace testEmailModule.Service
             return email.EndsWith(".dso.org.sg", StringComparison.Ordinal);
         }
 
-        private async Task<string> readOTP(string input)
-        {
-            // to simulate waiting, you can change this to TimeSpan.FromSeconds(61) to test fail flow
-            //await Task.Delay(1000);
-            await Task.Delay(TimeSpan.FromSeconds(61));
-            return input;
-        }
 
         // You can assume a function send_email(email_address, email_body) is implemented.
         private async Task<(EmailEnum, string)> send_email(string email_address, string email_body)
