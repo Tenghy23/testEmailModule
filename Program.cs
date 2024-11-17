@@ -11,6 +11,7 @@ builder.Services.AddSwaggerGen();
 
 #region AddScoped region
 builder.Services.AddSingleton<IEmailService, EmailService>();
+builder.Services.AddTransient<IInputStream, ConsoleInputStream>();
 #endregion
 
 var app = builder.Build();

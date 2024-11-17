@@ -19,6 +19,10 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+    "ApiSettings": {
+      "BaseUrl": "http://localhost:5231",
+      "OtpEndpoint": "/check_OTP"
+    },
     "https": {
       "commandName": "Project",
       "dotnetRunMessages": true,

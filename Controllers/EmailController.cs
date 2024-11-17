@@ -8,10 +8,12 @@ namespace testEmailModule.Controllers
     public class EmailController : ControllerBase
     {
         private readonly IEmailService _emailService;
+        private readonly IInputStream _inputStream;
 
-        public EmailController(IEmailService emailService)
+        public EmailController(IEmailService emailService, IInputStream inputStream)
         {
             _emailService = emailService;
+            _inputStream = inputStream;
         }
 
         // @func generate_OTP_email sends a new 6 digit random OTP code to the given email address input by the users
@@ -37,15 +39,13 @@ namespace testEmailModule.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> Check_OTP([FromBody] string? OTPInput, bool retry = false)
+        public async Task<IActionResult> Check_OTP(string email)
         {
             try
             {
-                using (var stream = HttpContext.Request.Body)
-                {
-                    var result = await _emailService.check_OTP(stream, retry, OTPInput);
-                    return Ok($"Enum: {(int)result.Item1}, Message: {result.Item2}");
-                }
+                var inputStream = new ConsoleInputStream();
+                var result = await _emailService.Check_OTP(inputStream ,email);
+                return Ok($"Enum: {(int)result.Item1}, Message: {result.Item2}");
             }
             catch
             {

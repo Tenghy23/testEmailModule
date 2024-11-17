@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Tengh\\repo\\testEmailModule\\",
+  "WorkspaceRootPath": "C:\\Users\\damie\\Repository\\testEmailModule\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\tengh\\repo\\testemailmodule\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\damie\\repository\\testemailmodule\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\tengh\\repo\\testemailmodule\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\damie\\repository\\testemailmodule\\service\\consoleinputstream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:service\\consoleinputstream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\tengh\\repo\\testemailmodule\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\damie\\repository\\testemailmodule\\service\\iinputstream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:service\\iinputstream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\damie\\repository\\testemailmodule\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\tengh\\repo\\testemailmodule\\service\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:service\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\tengh\\repo\\testemailmodule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\damie\\repository\\testemailmodule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\tengh\\repo\\testemailmodule\\utils\\emailenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\damie\\repository\\testemailmodule\\utils\\emailenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:utils\\emailenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\damie\\repository\\testemailmodule\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,81 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleInputStream.cs",
+              "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\Service\\ConsoleInputStream.cs",
+              "RelativeDocumentMoniker": "Service\\ConsoleInputStream.cs",
+              "ToolTip": "C:\\Users\\damie\\Repository\\testEmailModule\\Service\\ConsoleInputStream.cs",
+              "RelativeToolTip": "Service\\ConsoleInputStream.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T03:47:29.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IInputStream.cs",
+              "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\Service\\IInputStream.cs",
+              "RelativeDocumentMoniker": "Service\\IInputStream.cs",
+              "ToolTip": "C:\\Users\\damie\\Repository\\testEmailModule\\Service\\IInputStream.cs",
+              "RelativeToolTip": "Service\\IInputStream.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T03:47:24.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\damie\\Repository\\testEmailModule\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-16T11:21:31.211Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Tengh\\repo\\testEmailModule\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Tengh\\repo\\testEmailModule\\Program.cs",
+              "ToolTip": "C:\\Users\\damie\\Repository\\testEmailModule\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T16:44:38.392Z"
+              "WhenOpened": "2024-07-23T16:44:38.392Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "EmailEnum.cs",
-              "DocumentMoniker": "C:\\Users\\Tengh\\repo\\testEmailModule\\Utils\\EmailEnum.cs",
+              "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\Utils\\EmailEnum.cs",
               "RelativeDocumentMoniker": "Utils\\EmailEnum.cs",
-              "ToolTip": "C:\\Users\\Tengh\\repo\\testEmailModule\\Utils\\EmailEnum.cs",
+              "ToolTip": "C:\\Users\\damie\\Repository\\testEmailModule\\Utils\\EmailEnum.cs",
               "RelativeToolTip": "Utils\\EmailEnum.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T14:32:59.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Tengh\\repo\\testEmailModule\\Service\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Service\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\Tengh\\repo\\testEmailModule\\Service\\IEmailService.cs",
-              "RelativeToolTip": "Service\\IEmailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T14:18:30.176Z"
+              "WhenOpened": "2024-07-23T14:32:59.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Tengh\\repo\\testEmailModule\\Service\\EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\Service\\EmailService.cs",
               "RelativeDocumentMoniker": "Service\\EmailService.cs",
-              "ToolTip": "C:\\Users\\Tengh\\repo\\testEmailModule\\Service\\EmailService.cs",
+              "ToolTip": "C:\\Users\\damie\\Repository\\testEmailModule\\Service\\EmailService.cs",
               "RelativeToolTip": "Service\\EmailService.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAIwGUAAAAfAAAA",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwEoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T14:12:06.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\Tengh\\repo\\testEmailModule\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\Tengh\\repo\\testEmailModule\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-07-24T14:13:20.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EmailController.cs",
-              "DocumentMoniker": "C:\\Users\\Tengh\\repo\\testEmailModule\\Controllers\\EmailController.cs",
+              "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\Controllers\\EmailController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmailController.cs",
-              "ToolTip": "C:\\Users\\Tengh\\repo\\testEmailModule\\Controllers\\EmailController.cs",
+              "ToolTip": "C:\\Users\\damie\\Repository\\testEmailModule\\Controllers\\EmailController.cs",
               "RelativeToolTip": "Controllers\\EmailController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBkAAABFAAAA",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T13:46:26.126Z"
+              "WhenOpened": "2024-07-23T13:46:26.126Z",
+              "EditorCaption": ""
             }
           ]
         }

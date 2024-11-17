@@ -428,19 +428,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tengh\\.nuget\\packages\\": {}
+    "C:\\Users\\damie\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tengh\\repo\\testEmailModule\\testEmailModule.csproj",
+      "projectUniqueName": "C:\\Users\\damie\\Repository\\testEmailModule\\testEmailModule.csproj",
       "projectName": "testEmailModule",
-      "projectPath": "C:\\Users\\Tengh\\repo\\testEmailModule\\testEmailModule.csproj",
-      "packagesPath": "C:\\Users\\Tengh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tengh\\repo\\testEmailModule\\obj\\",
+      "projectPath": "C:\\Users\\damie\\Repository\\testEmailModule\\testEmailModule.csproj",
+      "packagesPath": "C:\\Users\\damie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\damie\\Repository\\testEmailModule\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Tengh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\damie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -448,7 +453,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -465,8 +469,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -488,24 +493,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.5, 8.0.5]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.5, 8.0.5]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.5, 8.0.5]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.5, 8.0.5]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -514,7 +501,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.6.24328.19/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
