@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\damie\\Repository\\testEmailModule\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\damie\\repository\\testemailmodule\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\damie\\repository\\testemailmodule\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\damie\\repository\\testemailmodule\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\damie\\repository\\testemailmodule\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\damie\\repository\\testemailmodule\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -23,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:service\\consoleinputstream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\damie\\repository\\testemailmodule\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|c:\\users\\damie\\repository\\testemailmodule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7EEBA8D-36CB-4D16-BC4D-DDC779934931}|testEmailModule.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -38,17 +38,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\damie\\Repository\\testEmailModule\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-17T14:10:46.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\README.md",
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\damie\\Repository\\testEmailModule\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAABMAAAAAAAAAAAAxwB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-11-17T04:18:41.277Z",
               "EditorCaption": ""
@@ -56,19 +69,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ConsoleInputStream.cs",
-              "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\Service\\ConsoleInputStream.cs",
-              "RelativeDocumentMoniker": "Service\\ConsoleInputStream.cs",
-              "ToolTip": "C:\\Users\\damie\\Repository\\testEmailModule\\Service\\ConsoleInputStream.cs",
-              "RelativeToolTip": "Service\\ConsoleInputStream.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T03:47:29.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "IInputStream.cs",
               "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\Service\\IInputStream.cs",
               "RelativeDocumentMoniker": "Service\\IInputStream.cs",
@@ -81,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -107,13 +107,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\Service\\EmailService.cs",
               "RelativeDocumentMoniker": "Service\\EmailService.cs",
               "ToolTip": "C:\\Users\\damie\\Repository\\testEmailModule\\Service\\EmailService.cs",
               "RelativeToolTip": "Service\\EmailService.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAUwGoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T14:12:06.942Z",
               "EditorCaption": ""
@@ -121,14 +121,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EmailController.cs",
-              "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\Controllers\\EmailController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmailController.cs",
-              "ToolTip": "C:\\Users\\damie\\Repository\\testEmailModule\\Controllers\\EmailController.cs",
-              "RelativeToolTip": "Controllers\\EmailController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBsAAABFAAAAAAAAAA==",
+              "Title": "ConsoleInputStream.cs",
+              "DocumentMoniker": "C:\\Users\\damie\\Repository\\testEmailModule\\Service\\ConsoleInputStream.cs",
+              "RelativeDocumentMoniker": "Service\\ConsoleInputStream.cs",
+              "ToolTip": "C:\\Users\\damie\\Repository\\testEmailModule\\Service\\ConsoleInputStream.cs",
+              "RelativeToolTip": "Service\\ConsoleInputStream.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T13:46:26.126Z",
+              "WhenOpened": "2024-11-17T03:47:29.723Z",
               "EditorCaption": ""
             }
           ]

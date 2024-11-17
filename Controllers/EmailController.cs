@@ -26,7 +26,7 @@ namespace testEmailModule.Controllers
             try
             {
                 var response = await _emailService.generate_OTP_email(email);
-                return Ok($"Enum returned: {response.Item1}, OTP value generated: {response.Item2}");
+                return Ok($"{response.Item1}, OTP value generated: {response.Item2}");
             }
             catch 
             {

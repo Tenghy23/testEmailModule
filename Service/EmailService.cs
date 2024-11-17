@@ -14,12 +14,12 @@ namespace testEmailModule.Service
          *  @func generate_OTP_email sends a new 6 digit random OTP code to the given email address 
          *  input by the users. Only emails from the ".dso.org.sg" domain should be allowed to receive an OTP code.
         */
-        public async Task<(EmailEnum, string)> generate_OTP_email(string? email)
+        public async Task<(string, string)> generate_OTP_email(string? email)
         {
             if (string.IsNullOrEmpty(email))
             {
                 //  STATUS_EMAIL_FAIL: email address does not exist or sending to the email has failed.
-                return (EmailEnum.STATUS_EMAIL_FAIL, string.Empty);
+                return ("STATUS_EMAIL_FAIL: email address does not exist or sending to the email has failed.", string.Empty);
             }
 
             if (ValidateEmail(email))
@@ -38,7 +38,7 @@ namespace testEmailModule.Service
             else 
             {
                 // STATUS_EMAIL_INVALID: email address is invalid.
-                return (EmailEnum.STATUS_EMAIL_INVALID, string.Empty);
+                return ("STATUS_EMAIL_INVALID: email address is invalid.", string.Empty);
             }
         }
 
@@ -107,7 +107,7 @@ namespace testEmailModule.Service
 
 
         // You can assume a function send_email(email_address, email_body) is implemented.
-        private async Task<(EmailEnum, string)> send_email(string email_address, string email_body)
+        private async Task<(string, string)> send_email(string email_address, string email_body)
         {
             /*
              * placeholder for logic for sending email_body to the specified email
@@ -115,7 +115,7 @@ namespace testEmailModule.Service
              * 
              * STATUS_EMAIL_FAIL: email address does not exist or sending to the email has failed.
              */
-            return (EmailEnum.STATUS_EMAIL_OK, email_body);
+            return ("STATUS_EMAIL_OK: email containing OTP has been sent successfully.", email_body);
         }
     }
 }
